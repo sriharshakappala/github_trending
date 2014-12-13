@@ -1,24 +1,23 @@
 # GithubTrending
 
-TODO: Write a gem description
+This all started with my interest on trending repos on github. Enthusiasts want to have all the repos but cloning all the repos one by one is not a good solution!
+
+So here comes a handy library for cloning all the trening repos automatically. This uses mechanize and nokogiri
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'github_trending'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the gem by:
 
     $ gem install github_trending
 
 ## Usage
 
-TODO: Write usage instructions here
+Open irb
+
+		$ require 'github_trending'
+		$ GithubTrending.list_repos # For listing all the trending repositories
+		$ GithubTrending.download_repos # For cloning all the trending repositories
+
 
 ## Contributing
 
